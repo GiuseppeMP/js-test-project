@@ -4,10 +4,12 @@
   "type": "module",
   "description": "A simple project with a single failing test",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "tdd": "jest --watch"
   },
   "devDependencies": {
     "eslint": "^7.27.0",
+    "eslint-plugin-jest": "^24.3.6",
     "jest": "^27.0.3",
     "node-notifier": "^10.0.0"
   }
