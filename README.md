@@ -12,3 +12,8 @@ To run the (failing) test:
 ```
 $ yarn test
 ```
+
+## Eslint
+
+```npm i -D eslint
+```npx eslint --init
