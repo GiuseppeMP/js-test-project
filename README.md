@@ -15,5 +15,12 @@ $ yarn test
 
 ## Eslint
 
-```npm i -D eslint
-```npx eslint --init
+```
+$ npm i -D eslint
+$ npx eslint --init
+```
+
+## Jest
+```$ npm i --D jest```
+
+
