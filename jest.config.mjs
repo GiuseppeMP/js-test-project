@@ -43,6 +43,11 @@ export default {
         '**/?(*.)+(spec|test).[tj]s?(x)'
     ],
 
+    transform: {
+        '^.+\\.js$': 'babel-jest',
+        '^.+\\.mjs$': 'babel-jest'
+    },
+
     testPathIgnorePatterns: [
         '/node_modules/'
     ],
